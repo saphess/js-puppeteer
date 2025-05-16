@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest --runINBand"
+    "test": "jest --runINBand",
+    "cucumber": "cucumber-js"
   },
   "author": "Gorlova M.",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "chai": "^4.3.4",
     "jest": "^27.3.1",
     "jest-puppeteer": "^6.0.0",
-    "puppeteer": "^13.3.2"
+    "puppeteer": "^13.3.2",
+    "cucumber": "^7.0.0-rc.0"
   }
 }
